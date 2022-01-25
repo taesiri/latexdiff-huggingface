@@ -1,0 +1,8 @@
+texlive
+texlive-full
+latexdiff
+biber
+texlive-fonts-extra
+texlive-fonts-recommended
+texlive-bibtex-extra
+texlive-lang-english
