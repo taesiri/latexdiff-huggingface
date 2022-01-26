@@ -42,5 +42,16 @@ def gen_all(OldVersion, NewVersion):
 
 os.makedirs('results', exist_ok=True)
 
-iface = gr.Interface(gen_all, ["file", "file"], "file", allow_screenshot=False, allow_flagging=False)
+title = "Latex Diff"
+description = "This Space automatically generates LatexDiff for two different versions of your latex project."
+article = "<p style='text-align: center'><a href='https://gitlab.com/git-latexdiff/git-latexdiff' target='_blank'>Git LatexDiff GitLab Repo</a></p>"
+
+
+iface = gr.Interface(gen_all, 
+                    ["file", "file"], "file",
+                    allow_screenshot=False, allow_flagging=False, 
+                    title=title,
+                    description=description,
+                    article=article,
+                    examples=[['1.zip','2.zip']])
 iface.launch(enable_queue=True)
