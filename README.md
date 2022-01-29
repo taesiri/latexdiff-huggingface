@@ -6,7 +6,7 @@ Applies [git-latexdiff](https://gitlab.com/git-latexdiff/git-latexdiff) on your 
 
 ## How to use with Overleaf
 
-Just download a `zip` file for two different versions of your latex project. Then provide the zip files to demo, and it will **hopefully** generate a latex diff.
+Just download `zip` files for two different versions of your latex project. Then provide the zip files to demo, and it will **hopefully** generate a latex diff.
 
 ## Sample output
 
